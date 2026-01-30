@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.filaUno{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.filaDos{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.productos{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid, transparent;
+  border-radius: 5%;
+}
+img{
+  height: 50%;
+  width: 100%;
+  border-radius: 5%;
+}
+input{
+  width: 90%;
+}
+.productos:hover{
+  box-shadow: 2cm;
+  box-shadow: 0 4px 6px rgba(0,0,0,1.1);
+}
